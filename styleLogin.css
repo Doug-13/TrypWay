@@ -1,0 +1,105 @@
+body {
+    background: #B53EFE;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    margin-top: -210px;
+}
+#logo {
+    border-radius: 339px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    display: block;
+    mix-blend-mode: luminosity;
+    /* margin-top: 20px;     */
+    /* margin-right: 38px;
+    margin-left: 38px; */
+}
+
+.ou {
+    color: #ffffff;
+}
+
+.login-container {
+    background-color: #B53EFE;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+button {
+    padding: 8px;
+    color: #ffffff;
+    background: #6B0EA4;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+h2 {
+    color: #333;
+}
+
+.social-buttons {
+    margin: 20px 0;
+}
+
+.social-buttons button {
+    background-color: #4267B2;
+    /* Facebook Blue */
+    color: #ffffff;
+    /* background: #6B0EA4; */
+
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.social-buttons button.google {
+    background-color: #DB4437;
+    color: #ffffff;
+    /* background: #6B0EA4 */
+    /* Google Red */
+}
+#esqueceu {
+    
+    padding-left: 1rem;
+    padding-right: 1rem;  
+}
+#cadastro {
+    margin-top: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;  
+}
+.buttons{
+        padding-left: 1rem;
+        padding-right: 1rem;
+}
